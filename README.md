@@ -10,3 +10,4 @@
 * npm install angular2-template-loader awesome-typescript-loader css-loader file-loader html-loader null-loader raw-loader style-loader to-string-loader --save-dev
 * npm install html-webpack-plugin webpack-merge extract-text-webpack-plugin --save-dev
 * npm install rimraf --save-dev
+* node_modules\.bin\typings install
