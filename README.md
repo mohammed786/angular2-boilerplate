@@ -11,3 +11,10 @@
 * npm install html-webpack-plugin webpack-merge extract-text-webpack-plugin --save-dev
 * npm install rimraf --save-dev
 * node_modules\.bin\typings install
+* Replace script option in **package.json** with below:
+```javascript
+"scripts": {
+    "start": "webpack-dev-server --inline --progress --port 8080",
+    "postinstall": "typings install"
+},
+```
