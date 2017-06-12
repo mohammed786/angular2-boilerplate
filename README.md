@@ -14,7 +14,8 @@
 * Replace script option in **package.json** with below:
 ```javascript
 "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080",
+    "start": "webpack-dev-server --inline --progress --port 3000",
     "postinstall": "typings install"
 },
 ```
+* npm start
